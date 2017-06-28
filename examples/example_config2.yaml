@@ -1,0 +1,9 @@
+kubernetes:
+  namespace: root
+  name: hhh1
+  num_gpus: 1
+tensorflow:
+  train_entrypoint: /home/lanlin/gpu_cluster/root/hhh1/models/example_distribute_tf.py
+  train_files: /home/lanlin/gpu_cluster/root/hhh1/models
+data:
+  data_dir: /home/lanlin/gpu_cluster/root/hhh1/data
